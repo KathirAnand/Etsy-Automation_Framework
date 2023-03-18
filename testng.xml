@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Etsy">
+  <test thread-count="5" name="SignInTest">
+    <classes>
+      <class name="com.etsy.utills.ExtentReport"/>
+      <class name="com.etsy.testdatas.SignInTestDatas"/>
+      <class name="com.etsy.tests.SignInModule"/>
+      <class name="com.etsy.testbase.TestBase"/>
+      <class name="com.etsy.utills.TestDataProvider"/>
+    </classes>
+  </test> <!-- SignInTest -->
+</suite> <!-- Etsy -->

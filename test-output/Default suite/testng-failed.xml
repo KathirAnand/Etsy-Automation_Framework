@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.etsy.tests.SignInModule">
+        <methods>
+          <include name="btnSignInClick"/>
+          <include name="setUp"/>
+          <include name="testEnd"/>
+          <include name="tearDown"/>
+          <include name="getReport"/>
+          <include name="login_withValidCredentials"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.etsy.tests.SignInModule -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
