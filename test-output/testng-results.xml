@@ -1,51 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-15T06:43:49 GMT" name="Etsy" finished-at="2023-03-15T06:44:51 GMT" duration-ms="61996">
+  <suite started-at="2023-03-20T03:54:22 GMT" name="Etsy" finished-at="2023-03-20T03:55:16 GMT" duration-ms="54055">
     <groups>
     </groups>
-    <test started-at="2023-03-15T06:43:49 GMT" name="SignInTest" finished-at="2023-03-15T06:44:51 GMT" duration-ms="61996">
+    <test started-at="2023-03-20T03:54:22 GMT" name="SignInTest" finished-at="2023-03-20T03:55:16 GMT" duration-ms="54055">
       <class name="com.etsy.tests.SignInModule">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:43:49 GMT" name="startReport" finished-at="2023-03-15T06:43:50 GMT" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:54:22 GMT" name="startReport" finished-at="2023-03-20T03:54:22 GMT" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:43:50 GMT" name="setUp" finished-at="2023-03-15T06:44:18 GMT" duration-ms="28536" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:54:22 GMT" name="setUp" finished-at="2023-03-20T03:54:49 GMT" duration-ms="26548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="btnSignInClick()[pri:1, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:44:19 GMT" name="btnSignInClick" finished-at="2023-03-15T06:44:24 GMT" duration-ms="4936" status="PASS">
+        <test-method signature="btnSignInClick()[pri:1, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:54:49 GMT" name="btnSignInClick" finished-at="2023-03-20T03:54:51 GMT" duration-ms="1931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- btnSignInClick -->
-        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:44:24 GMT" name="getReport" finished-at="2023-03-15T06:44:26 GMT" duration-ms="2423" status="PASS">
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:54:51 GMT" name="getReport" finished-at="2023-03-20T03:54:52 GMT" duration-ms="1229" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=btnSignInClick status=SUCCESS method=SignInModule.btnSignInClick()[pri:1, instance:com.etsy.tests.SignInModule@1fa121e2] output={null}]]]>
+                <![CDATA[[TestResult name=btnSignInClick status=SUCCESS method=SignInModule.btnSignInClick()[pri:1, instance:com.etsy.tests.SignInModule@62ddbd7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method signature="elementsIsDisplayed()[pri:2, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:44:26 GMT" name="elementsIsDisplayed" finished-at="2023-03-15T06:44:36 GMT" duration-ms="9415" status="PASS">
+        <test-method signature="vissiblityOfSignInPageWebElements()[pri:2, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:54:52 GMT" name="vissiblityOfSignInPageWebElements" finished-at="2023-03-20T03:54:57 GMT" duration-ms="5336" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- elementsIsDisplayed -->
-        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:44:36 GMT" name="getReport" finished-at="2023-03-15T06:44:37 GMT" duration-ms="1359" status="PASS">
+        </test-method> <!-- vissiblityOfSignInPageWebElements -->
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:54:57 GMT" name="getReport" finished-at="2023-03-20T03:54:58 GMT" duration-ms="847" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=elementsIsDisplayed status=SUCCESS method=SignInModule.elementsIsDisplayed()[pri:2, instance:com.etsy.tests.SignInModule@1fa121e2] output={null}]]]>
+                <![CDATA[[TestResult name=vissiblityOfSignInPageWebElements status=SUCCESS method=SignInModule.vissiblityOfSignInPageWebElements()[pri:2, instance:com.etsy.tests.SignInModule@62ddbd7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method signature="login_withValidCredentials(java.lang.String,java.lang.String)[pri:3, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:44:44 GMT" name="login_withValidCredentials" data-provider="validSingInTestDatas" finished-at="2023-03-15T06:44:49 GMT" duration-ms="5782" status="PASS">
+        <test-method signature="signin_withoutCredentials()[pri:3, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:54:58 GMT" name="signin_withoutCredentials" finished-at="2023-03-20T03:55:00 GMT" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin_withoutCredentials -->
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:55:00 GMT" name="getReport" finished-at="2023-03-20T03:55:01 GMT" duration-ms="788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signin_withoutCredentials status=SUCCESS method=SignInModule.signin_withoutCredentials()[pri:3, instance:com.etsy.tests.SignInModule@62ddbd7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method signature="signin_withoutPassword(java.lang.String,java.lang.String)[pri:4, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:55:06 GMT" name="signin_withoutPassword" data-provider="validSingInTestDatas" finished-at="2023-03-20T03:55:08 GMT" duration-ms="1482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,25 +75,79 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_withValidCredentials -->
-        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:44:50 GMT" name="getReport" finished-at="2023-03-15T06:44:50 GMT" duration-ms="757" status="PASS">
+        </test-method> <!-- signin_withoutPassword -->
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:55:08 GMT" name="getReport" finished-at="2023-03-20T03:55:09 GMT" duration-ms="1327" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login_withValidCredentials status=SUCCESS method=SignInModule.login_withValidCredentials(java.lang.String,java.lang.String)[pri:3, instance:com.etsy.tests.SignInModule@1fa121e2] output={null}]]]>
+                <![CDATA[[TestResult name=signin_withoutPassword status=SUCCESS method=SignInModule.signin_withoutPassword(java.lang.String,java.lang.String)[pri:4, instance:com.etsy.tests.SignInModule@62ddbd7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.etsy.tests.SignInModule@1fa121e2]" started-at="2023-03-15T06:44:50 GMT" name="tearDown" finished-at="2023-03-15T06:44:51 GMT" duration-ms="419" status="PASS">
+        <test-method signature="signin_withoutEmailId(java.lang.String,java.lang.String)[pri:5, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:55:10 GMT" name="signin_withoutEmailId" data-provider="validSingInTestDatas" finished-at="2023-03-20T03:55:11 GMT" duration-ms="1094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kathirstuvad434dear@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!Daredewin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin_withoutEmailId -->
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:55:11 GMT" name="getReport" finished-at="2023-03-20T03:55:12 GMT" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signin_withoutEmailId status=SUCCESS method=SignInModule.signin_withoutEmailId(java.lang.String,java.lang.String)[pri:5, instance:com.etsy.tests.SignInModule@62ddbd7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method signature="signin_withValidCredentials(java.lang.String,java.lang.String)[pri:6, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:55:12 GMT" name="signin_withValidCredentials" data-provider="validSingInTestDatas" finished-at="2023-03-20T03:55:13 GMT" duration-ms="1358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kathirstuvad434dear@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!Daredewin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin_withValidCredentials -->
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:55:13 GMT" name="getReport" finished-at="2023-03-20T03:55:14 GMT" duration-ms="856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signin_withValidCredentials status=SUCCESS method=SignInModule.signin_withValidCredentials(java.lang.String,java.lang.String)[pri:6, instance:com.etsy.tests.SignInModule@62ddbd7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.etsy.tests.SignInModule@62ddbd7e]" started-at="2023-03-20T03:55:14 GMT" name="tearDown" finished-at="2023-03-20T03:55:14 GMT" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.etsy.tests.SignInModule -->
       <class name="com.etsy.utills.ExtentReport">
-        <test-method is-config="true" signature="testEnd()[pri:0, instance:com.etsy.utills.ExtentReport@5542c4ed]" started-at="2023-03-15T06:44:51 GMT" name="testEnd" finished-at="2023-03-15T06:44:51 GMT" duration-ms="439" status="PASS">
+        <test-method is-config="true" signature="testEnd()[pri:0, instance:com.etsy.utills.ExtentReport@44c03695]" started-at="2023-03-20T03:55:14 GMT" name="testEnd" finished-at="2023-03-20T03:55:16 GMT" duration-ms="1187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEnd -->

@@ -7,9 +7,9 @@
         <methods>
           <include name="setUp"/>
           <include name="testEnd"/>
-          <include name="tearDown"/>
           <include name="getReport"/>
-          <include name="elementsIsDisplayed"/>
+          <include name="tearDown"/>
+          <include name="vissiblityOfSignInPageWebElements"/>
           <include name="startReport"/>
         </methods>
       </class> <!-- com.etsy.tests.SignInModule -->

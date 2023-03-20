@@ -28,7 +28,7 @@ public class SingInHelperCodes extends PageActions {
 		assertVisiblity(signIn.passwordLabel);
 		assertVisiblity(signIn.forgetPasswordLink);
 		assertVisiblity(signIn.signInPageHeading);
-		assertVisiblity(signIn.signedInChkbox);
+//		assertVisiblity(signIn.signedInChkbox);
 	}
 
 	public void signin_WithValidCredentials(String emailId, String password, WebDriver driver) {

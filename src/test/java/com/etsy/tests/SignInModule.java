@@ -28,6 +28,7 @@ public class SignInModule extends TestBase {
 	@Test(priority = 2)
 	public void vissiblityOfSignInPageWebElements() throws InterruptedException {
 		ExtentReport.logger = ExtentReport.extent.startTest("VisibilityOfWebElements");
+		Thread.sleep(3500);
 		signIn.validatingVissiblityOfSignInPageWebElements(driver);
 		
 	}
