@@ -45,6 +45,7 @@ public class SingInHelperCodes extends PageActions {
 		clear(signIn.emailInputField);
 		clear(signIn.passwordInputField);
 		sendKey(signIn.passwordInputField, password);
+//		move(signIn.btnSignIn, driver);
 		jsClicker(signIn.btnSignIn, driver);
 	}
 
@@ -53,14 +54,16 @@ public class SingInHelperCodes extends PageActions {
 		clear(signIn.emailInputField);
 		sendKey(signIn.emailInputField, emailId);
 		clear(signIn.passwordInputField);
-		move(signIn.btnSignIn, driver);
+//		move(signIn.btnSignIn, driver);
+		jsClicker(signIn.btnSignIn, driver);
 	}
 
 	public void signin_WithoutCredentials(WebDriver driver) {
 		SignInPageObjects signIn = new SignInPageObjects(driver);
 		clear(signIn.emailInputField);
 		clear(signIn.passwordInputField);
-		move(signIn.btnSignIn, driver);
+//		move(signIn.btnSignIn, driver);
+		jsClicker(signIn.btnSignIn, driver);
 	}
 
 	public void signin_withInvalidCredentials(String emailId, String password, WebDriver driver) {

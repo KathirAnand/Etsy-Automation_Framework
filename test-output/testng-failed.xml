@@ -3,13 +3,23 @@
 <suite name="Failed suite [Etsy]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SignInTest(failed)">
     <classes>
+      <class name="com.etsy.utills.ExtentReport">
+        <methods>
+          <include name="testEnd"/>
+        </methods>
+      </class> <!-- com.etsy.utills.ExtentReport -->
       <class name="com.etsy.tests.SignInModule">
         <methods>
+          <include name="btnSignInClick"/>
           <include name="setUp"/>
           <include name="testEnd"/>
           <include name="getReport"/>
           <include name="tearDown"/>
+          <include name="signin_withoutCredentials"/>
+          <include name="signin_withValidCredentials"/>
           <include name="vissiblityOfSignInPageWebElements"/>
+          <include name="signin_withoutEmailId"/>
+          <include name="signin_withoutPassword"/>
           <include name="startReport"/>
         </methods>
       </class> <!-- com.etsy.tests.SignInModule -->

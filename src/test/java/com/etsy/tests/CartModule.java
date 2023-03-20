@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+import com.etsy.helpercodes.AddToCartHelperCodes;
 import com.etsy.helpercodes.HomePageHelperCodes;
 import com.etsy.helpercodes.SingInHelperCodes;
 import com.etsy.testbase.TestBase;
@@ -13,6 +14,7 @@ import com.etsy.utills.ExtentReport;
 public class CartModule extends TestBase {
 	HomePageHelperCodes home = new HomePageHelperCodes();
 	SingInHelperCodes singIn = new SingInHelperCodes();
+	AddToCartHelperCodes cart=new AddToCartHelperCodes();
 	@Ignore
 	@BeforeTest
 	public void startReport() {
@@ -31,5 +33,17 @@ public class CartModule extends TestBase {
 		singIn.signin_WithValidCredentials(emailId, password, driver);
 		ExtentReport.logPassedStepReportWithScreenshot(driver, logger, "passed", "signIn button is clicked with Valid signin credentials");
 
+	}
+	
+	public void searchProducts(String productName) {
+		ExtentReport.logger=ExtentReport.extent.startTest("SearchProducts");
+		cart.searchProducts(productName, driver);
+	}
+	
+	public void selectingProduct() {
+		cart.clickProduct(driver);
+	}
+	public void addToCart() {
+		
 	}
 }

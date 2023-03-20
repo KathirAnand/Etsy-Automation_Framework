@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -161,7 +162,7 @@ public class PageActions {
 
 	public static void move(WebElement source,WebDriver driver) {
 		Actions action = new Actions(driver);
-		action.moveToElement(source);
+		action.moveToElement(source).build().perform();
 	}
 
 	public static void moveTo(String locatorType, String source, String targert, WebDriver driver) {
@@ -190,4 +191,17 @@ public class PageActions {
 	public static void assertSelected(WebElement element) {
 		Assert.assertTrue(element.isSelected());
 	}
+	public static void selectByIndex(WebElement element,int index) {
+		Select select=new Select(element);
+		select.selectByIndex(index);
+	}
+	public static void selectByValue(WebElement element,String value) {
+		Select select=new Select(element);
+		select.selectByValue(value);
+	}
+	public static void selectByVisibleText(WebElement element,String value) {
+		Select select=new Select(element);
+		select.selectByVisibleText(value);
+	}
+	
 }
